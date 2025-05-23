@@ -6,8 +6,17 @@ namespace SenaiNotas.Interfaces
 {
     public interface IUsuarioRepository
     {
+
+        //Cadastra usuario - Email, senha e nome (DTO)
         Task CadastrarUsuario(CadastrarUsuarioDTO usuarioDTO);
 
-        Task AlterarSenha(AlterarSenhaDTO SsasasasasasSASASASASASASASSSSSAASSSSSSAASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSsssssss);        
+        //Altera usuario - Email, senha e nome (DTO)
+        Task AlterarSenhaUsuario(AlterarSenhaDTO alterarSenhaDTO);        
+
+        Task DeletarUsuaruio(int idUsuario);
+
+        Task<List<ListarUsuarioDTO>> ListarUsuario(int idUsuario);
+
+        Task<bool> Login(LoginDto loginDTO);
     }
 }

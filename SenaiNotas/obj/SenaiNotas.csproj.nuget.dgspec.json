@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\SenaiNotas.csproj": {}
+    "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\SenaiNotas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\SenaiNotas.csproj": {
+    "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\SenaiNotas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\SenaiNotas.csproj",
+        "projectUniqueName": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\SenaiNotas.csproj",
         "projectName": "SenaiNotas",
-        "projectPath": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\SenaiNotas.csproj",
+        "projectPath": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\SenaiNotas.csproj",
         "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\obj\\",
+        "outputPath": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -75,6 +75,10 @@
               "target": "Package",
               "version": "[6.6.2, )"
             },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "Swashbuckle.AspNetCore.SwaggerGen": {
               "target": "Package",
               "version": "[8.1.1, )"
@@ -103,7 +107,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

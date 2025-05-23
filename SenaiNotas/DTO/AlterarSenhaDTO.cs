@@ -3,11 +3,16 @@
 namespace SenaiNotas.DTO
 {
     public class AlterarSenhaDTO
+
+        
     {
-        [Required]
+        
+        public int IdUsuario { get; set; }
+
+        
         public string Senha { get; set; }
 
-        [Required]
+        
         public string NovaSenha { get; set; }
     }
 }

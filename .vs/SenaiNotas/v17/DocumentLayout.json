@@ -1,17 +1,69 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\",
+  "WorkspaceRootPath": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\dto\\alterarsenhadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\desktop\\c#\\refatorado\\senainotas-refatorado\\senainotas\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\desktop\\c#\\refatorado\\senainotas-refatorado\\senainotas\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\desktop\\c#\\refatorado\\senainotas-refatorado\\senainotas\\models\\nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\models\\nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\desktop\\c#\\refatorado\\senainotas-refatorado\\senainotas\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\desktop\\c#\\refatorado\\senainotas-refatorado\\senainotas\\context\\senainotescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\context\\senainotescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\desktop\\c#\\refatorado\\senainotas-refatorado\\senainotas\\interfaces\\ianotacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\interfaces\\ianotacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\desktop\\c#\\refatorado\\senainotas-refatorado\\senainotas\\dto\\alterarsenhadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\dto\\alterarsenhadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\desktop\\c#\\refatorado\\senainotas-refatorado\\senainotas\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\senainotas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\desktop\\c#\\refatorado\\senainotas-refatorado\\senainotas\\dto\\logindtocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\dto\\logindtocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\desktop\\c#\\refatorado\\senainotas-refatorado\\senainotas\\dto\\listarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\dto\\listarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\desktop\\c#\\refatorado\\senainotas-refatorado\\senainotas\\dto\\cadastrarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\dto\\cadastrarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\desktop\\c#\\refatorado\\senainotas-refatorado\\senainotas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\desktop\\c#\\refatorado\\senainotas-refatorado\\senainotas\\repositories\\notarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\repositories\\notarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\desktop\\c#\\refatorado\\senainotas-refatorado\\senainotas\\models\\anexo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\models\\anexo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\desktop\\c#\\refatorado\\senainotas-refatorado\\senainotas\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\desktop\\c#\\refatorado\\senainotas-refatorado\\senainotas\\senainotas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\senainotas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -22,41 +74,214 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginDTOcs.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\DTO\\LoginDTOcs.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\DTO\\LoginDTOcs.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\DTO\\LoginDTOcs.cs",
+              "RelativeToolTip": "SenaiNotas\\DTO\\LoginDTOcs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T00:18:26.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PasswordService.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\Services\\PasswordService.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Services\\PasswordService.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\Services\\PasswordService.cs",
+              "RelativeToolTip": "SenaiNotas\\Services\\PasswordService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T22:33:10.316Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AlterarSenhaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\DTO\\AlterarSenhaDTO.cs",
-              "RelativeDocumentMoniker": "SenaiNotas\\DTO\\AlterarSenhaDTO.cs",
-              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\DTO\\AlterarSenhaDTO.cs",
-              "RelativeToolTip": "SenaiNotas\\DTO\\AlterarSenhaDTO.cs",
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "SenaiNotas\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwEkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T18:40:44.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\Models\\Usuario.cs",
+              "RelativeToolTip": "SenaiNotas\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T23:23:48.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ListarUsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\DTO\\ListarUsuarioDTO.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\DTO\\ListarUsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\DTO\\ListarUsuarioDTO.cs",
+              "RelativeToolTip": "SenaiNotas\\DTO\\ListarUsuarioDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T18:31:59.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Anexo.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\Models\\Anexo.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Models\\Anexo.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\Models\\Anexo.cs",
+              "RelativeToolTip": "SenaiNotas\\Models\\Anexo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T00:06:36.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Nota.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\Models\\Nota.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Models\\Nota.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\Models\\Nota.cs",
+              "RelativeToolTip": "SenaiNotas\\Models\\Nota.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwB8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T00:06:24.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NotaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\Repositories\\NotaRepository.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Repositories\\NotaRepository.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\Repositories\\NotaRepository.cs",
+              "RelativeToolTip": "SenaiNotas\\Repositories\\NotaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T00:05:50.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAnotacaoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\Interfaces\\IAnotacaoRepository.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Interfaces\\IAnotacaoRepository.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\Interfaces\\IAnotacaoRepository.cs",
+              "RelativeToolTip": "SenaiNotas\\Interfaces\\IAnotacaoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T00:05:22.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SenaiNotesContext.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\Context\\SenaiNotesContext.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Context\\SenaiNotesContext.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\Context\\SenaiNotesContext.cs",
+              "RelativeToolTip": "SenaiNotas\\Context\\SenaiNotesContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T23:35:43.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "SenaiNotas\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T23:32:56.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\Program.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Program.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\Program.cs",
+              "RelativeToolTip": "SenaiNotas\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T23:29:52.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CadastrarUsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\DTO\\CadastrarUsuarioDTO.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\DTO\\CadastrarUsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\DTO\\CadastrarUsuarioDTO.cs",
+              "RelativeToolTip": "SenaiNotas\\DTO\\CadastrarUsuarioDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T23:19:32.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AlterarSenhaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\DTO\\AlterarSenhaDTO.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\DTO\\AlterarSenhaDTO.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\DTO\\AlterarSenhaDTO.cs",
+              "RelativeToolTip": "SenaiNotas\\DTO\\AlterarSenhaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T09:26:29.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "IUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Interfaces\\IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\Interfaces\\IUsuarioRepository.cs",
               "RelativeDocumentMoniker": "SenaiNotas\\Interfaces\\IUsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Interfaces\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\Interfaces\\IUsuarioRepository.cs",
               "RelativeToolTip": "SenaiNotas\\Interfaces\\IUsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T09:26:28.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SenaiNotas",
-              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\SenaiNotas.csproj",
+              "DocumentIndex": 15,
+              "Title": "SenaiNotas.csproj",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\SenaiNotas.csproj",
               "RelativeDocumentMoniker": "SenaiNotas\\SenaiNotas.csproj",
-              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\SenaiNotas.csproj",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Refatorado\\SenaiNotas-Refatorado\\SenaiNotas\\SenaiNotas.csproj",
               "RelativeToolTip": "SenaiNotas\\SenaiNotas.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
