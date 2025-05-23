@@ -4,14 +4,14 @@ namespace Senai_Notas.DTO
 {
     public class CadastrarUsuarioDTO
     {
-      
-        public string Nome { get; set; }
 
-     
-        public string Email { get; set; }
+        public string Nome { get; set; } = null!;
 
-      
-        public string Senha { get; set; }
+
+        public string Email { get; set; } = null!;
+
+
+        public string Senha { get; set; } = null!;
 
     }
 }

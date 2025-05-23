@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
-namespace SenaiNotas.DTO
+namespace SenaiNotas.ViewModel
 {
-    public interface ListarUsuarioDTO
+    public class ListarUsuarioViewModel
     {
       
         public string Email { get; set; }
@@ -9,10 +9,5 @@ namespace SenaiNotas.DTO
    
         public string Nome { get; set; } 
 
-  
-        public bool Tema { get; set; }
-
-  
-        public bool Fonte { get; set; }
     }
 }

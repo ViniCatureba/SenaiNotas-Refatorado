@@ -6,6 +6,8 @@ using SenaiNotas.DTO;
 using SenaiNotas.Interfaces;
 using SenaiNotas.Models;
 using SenaiNotas.Services;
+using SenaiNotas.ViewModel;
+using SenaiNotas.Exceptions;
 
 namespace SenaiNotas.Repositories
 {
@@ -40,7 +42,7 @@ namespace SenaiNotas.Repositories
             novaSenha.Senha = passwordService.HashPassword(novaSenha);
 
             encontrarUser.Senha = novaSenha.Senha;
-            _context.SaveChanges(); //await aqui?
+            await _context.SaveChangesAsync(); //await aqui?
             
 
 
@@ -50,28 +52,46 @@ namespace SenaiNotas.Repositories
         public async Task CadastrarUsuario(CadastrarUsuarioDTO usuarioDTO)
         {
             var passwordService = new PasswordService();
+
+            var usuarioExistente = await _context.Usuarios.AnyAsync(u => u.Email == usuarioDTO.Email);
+
+            if (usuarioExistente)
+            {
+                throw new UsuarioJaExisteException("Já existe um usuário com este email.");
+            }
+
             var usuario = new Usuario()
             {
                 Nome = usuarioDTO.Nome,
-                Email = usuarioDTO.Email
+                Email = usuarioDTO.Email,
+                Senha = usuarioDTO.Senha
             };
             usuario.Senha = passwordService.HashPassword(usuario);
-            _context.Usuarios.Add(usuario);
-            _context.SaveChanges();
+            await _context.Usuarios.AddAsync(usuario);
+            await _context.SaveChangesAsync();
         }
 
         public async Task DeletarUsuaruio(int idUsuario)
         {
             var encontrarUsuario = _context.Usuarios.FirstOrDefaultAsync(c => c.IdUsuario == idUsuario);
 
-            if (encontrarUsuario == null) { throw new ArgumentException("Cliente nao encontrado"); }
+            if (encontrarUsuario == null) { throw new ArgumentException("Usuario nao encontrado"); }
             _context.Usuarios.Remove(await encontrarUsuario);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
 
-        public async Task<List<ListarUsuarioDTO>> ListarUsuario(int idUsuario)
+        public async Task<ListarUsuarioViewModel> ListarUsuario(int idUsuario)
         {
+            var encontrarUsuario = await _context.Usuarios.FirstOrDefaultAsync(c => c.IdUsuario == idUsuario);
             
+            if (encontrarUsuario == null) { throw new ArgumentException("Usuario nao encontrado"); }
+
+            return new ListarUsuarioViewModel
+            {
+                Nome = encontrarUsuario.Nome,
+                Email = encontrarUsuario.Email
+            };
+
         }
 
         public async Task<bool> Login(LoginDto loginDTO)

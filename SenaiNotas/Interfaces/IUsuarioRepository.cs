@@ -1,5 +1,6 @@
 ﻿using Senai_Notas.DTO;
 using SenaiNotas.DTO;
+using SenaiNotas.ViewModel;
 
 
 namespace SenaiNotas.Interfaces
@@ -15,7 +16,7 @@ namespace SenaiNotas.Interfaces
 
         Task DeletarUsuaruio(int idUsuario);
 
-        Task<List<ListarUsuarioDTO>> ListarUsuario(int idUsuario);
+        Task<ListarUsuarioViewModel> ListarUsuario(int idUsuario);
 
         Task<bool> Login(LoginDto loginDTO);
     }

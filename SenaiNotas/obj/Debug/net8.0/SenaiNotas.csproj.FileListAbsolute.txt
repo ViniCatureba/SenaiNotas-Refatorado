@@ -169,3 +169,7 @@ C:\Users\vinic\source\repos\SenaiNotas\SenaiNotas\obj\Debug\net8.0\refint\SenaiN
 C:\Users\vinic\source\repos\SenaiNotas\SenaiNotas\obj\Debug\net8.0\SenaiNotas.pdb
 C:\Users\vinic\source\repos\SenaiNotas\SenaiNotas\obj\Debug\net8.0\SenaiNotas.genruntimeconfig.cache
 C:\Users\vinic\source\repos\SenaiNotas\SenaiNotas\obj\Debug\net8.0\ref\SenaiNotas.dll
+C:\Users\vinic\source\repos\SenaiNotas\SenaiNotas\obj\Debug\net8.0\SenaiNotas.sourcelink.json
+C:\Users\vinic\source\repos\SenaiNotas\SenaiNotas\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\vinic\source\repos\SenaiNotas\SenaiNotas\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\vinic\source\repos\SenaiNotas\SenaiNotas\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -1,24 +1,38 @@
 using Microsoft.Extensions.Options;
+using SenaiNotas.Context;
+using SenaiNotas.Interfaces;
+using SenaiNotas.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddControllers();
+
+builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddSwaggerGen();
 
 
 
 
 
-builder.Serrvices.AddCors(
-    Options =>
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("minhaOrigens", policy =>
     {
-        Options.AddPolicy(
-            name: "minhaOrigens",
-            policy =>
-            {
-                policy.WithOrigins()
-            }
-    }
-    )
+        policy.WithOrigins("http://localhost:3000") 
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
+
+builder.Services.AddTransient<SenaiNotesContext, SenaiNotesContext>();
+builder.Services.AddTransient<IUsuarioRepository, UsuarioRepository>();
+
+
+
+
 
 
 builder.Services.AddSwaggerGen(options =>
@@ -32,17 +46,16 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+
+app.UseSwagger();
+app.UseSwaggerUI();
+
 
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
 app.MapControllers();
+
 
 app.Run();

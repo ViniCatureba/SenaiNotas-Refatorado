@@ -1,4 +1,4 @@
-﻿using SenaiNotas.Context;
+﻿/*using SenaiNotas.Context;
 
 namespace SenaiNotas.Repositories
 {
@@ -25,6 +25,7 @@ namespace SenaiNotas.Repositories
             anotacao.AnotacaoArquivada = !anotacao.AnotacaoArquivada;
 
             _context.SaveChanges();
+        }
 
             public CadastroAnotacaoDto? CadastrarAnotacao(CadastroAnotacaoDto anotacao)
         {
@@ -46,3 +47,4 @@ namespace SenaiNotas.Repositories
     }
 }
 }
+*/
