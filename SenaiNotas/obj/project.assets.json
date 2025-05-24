@@ -4891,23 +4891,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vinic\\.nuget\\packages\\": {},
+    "C:\\Users\\vinicius.catureba\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\SenaiNotas.csproj",
+      "projectUniqueName": "C:\\Users\\vinicius.catureba\\Source\\Repos\\SenaiNotas-Refatorado\\SenaiNotas\\SenaiNotas.csproj",
       "projectName": "SenaiNotas",
-      "projectPath": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\SenaiNotas.csproj",
-      "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\obj\\",
+      "projectPath": "C:\\Users\\vinicius.catureba\\Source\\Repos\\SenaiNotas-Refatorado\\SenaiNotas\\SenaiNotas.csproj",
+      "packagesPath": "C:\\Users\\vinicius.catureba\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vinicius.catureba\\Source\\Repos\\SenaiNotas-Refatorado\\SenaiNotas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vinicius.catureba\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4916,7 +4916,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4935,7 +4934,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -4997,7 +4996,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

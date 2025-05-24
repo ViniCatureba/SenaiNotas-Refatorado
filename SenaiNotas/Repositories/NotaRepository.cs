@@ -1,4 +1,4 @@
-﻿/*using SenaiNotas.Context;
+﻿using SenaiNotas.Context;
 
 namespace SenaiNotas.Repositories
 {

@@ -42,8 +42,7 @@ namespace SenaiNotas.Repositories
             novaSenha.Senha = passwordService.HashPassword(novaSenha);
 
             encontrarUser.Senha = novaSenha.Senha;
-            await _context.SaveChangesAsync(); //await aqui?
-            
+            await _context.SaveChangesAsync(); 
 
 
         }
@@ -100,7 +99,7 @@ namespace SenaiNotas.Repositories
             if (emailEncontrado == null) { throw new ArgumentException("E-mail ou senha invalidos"); }
 
             var passwordService = new PasswordService();
-            var verificarHash = passwordService.VerificarSenha(await emailEncontrado, loginDTO.Senha); //sem await)?
+            var verificarHash = passwordService.VerificarSenha(await emailEncontrado, loginDTO.Senha);
             if (verificarHash == true) return true;
             return false;
             //TODO: Implementar JWT

@@ -37,7 +37,7 @@ namespace SenaiNotas.Controllers
             }
             catch (UsuarioJaExisteException ex)
             {
-                return Conflict(ex.Message); // 409 Conflict
+                return Conflict(ex.Message);
             }
             catch (Exception ex)
             {
@@ -45,7 +45,7 @@ namespace SenaiNotas.Controllers
             }
         }
 
-        
+
         [HttpPut("AlterarSenhaUsuario")]
         public async Task<IActionResult> AlterarSenhaUsuario(AlterarSenhaDTO alterarSenhaDTO)
         {
@@ -56,7 +56,7 @@ namespace SenaiNotas.Controllers
             }
             catch (ArgumentException ex)
             {
-                return BadRequest(ex.Message); 
+                return BadRequest(ex.Message);
             }
             catch (Exception ex)
             {
@@ -69,6 +69,11 @@ namespace SenaiNotas.Controllers
         {
             return Ok(await _usuarioRepository.ListarUsuario(id));
         }
+        //login deve retornar token e user
 
+        //return Ok(new{
+            //token ,
+            //usuario
+        }
     }
 }
