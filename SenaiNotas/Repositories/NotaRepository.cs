@@ -1,10 +1,13 @@
-﻿using SenaiNotas.Context;
+﻿using SenaiNotas.Interfaces;
+using SenaiNotas.Context;
 
 namespace SenaiNotas.Repositories
 {
-    public class NotaRepository
+    public class NotaRepository : IAnotacaoRepository
     {
-        private readonly ItagRepository _tagRepository;
+        private readonly ITagRepository _tagRepository;
+
+        private readonly SenaiNotesContext _context;
 
         public NotaRepository(SenaiNotesContext context, ITagRepository tagRepository)
         {
