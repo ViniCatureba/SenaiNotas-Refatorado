@@ -335,7 +335,6 @@ C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\obj\Deb
 C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\SenaiNotas.csproj.Up2Date
 C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\SenaiNotas.dll
 C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\refint\SenaiNotas.dll

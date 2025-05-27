@@ -16,8 +16,6 @@ public partial class SenaiNotesContext : DbContext
     {
     }
 
-    public virtual DbSet<Anexo> Anexos { get; set; }
-
     public virtual DbSet<AuditoriaGeral> AuditoriaGerals { get; set; }
 
     public virtual DbSet<Nota> Notas { get; set; }
@@ -34,24 +32,6 @@ public partial class SenaiNotesContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Anexo>(entity =>
-        {
-            entity.HasKey(e => e.IdAnexo).HasName("PK__Anexo__A3A70BAA73CD9A00");
-
-            entity.ToTable("Anexo", tb => tb.HasTrigger("trg_audit_Anexo"));
-
-            entity.Property(e => e.IdAnexo).HasColumnName("idAnexo");
-            entity.Property(e => e.DataUpload)
-                .HasColumnType("datetime")
-                .HasColumnName("dataUpload");
-            entity.Property(e => e.NomeArquivo)
-                .IsUnicode(false)
-                .HasColumnName("nomeArquivo");
-            entity.Property(e => e.Url)
-                .HasMaxLength(1)
-                .HasColumnName("URL");
-        });
-
         modelBuilder.Entity<AuditoriaGeral>(entity =>
         {
             entity.HasKey(e => e.IdAuditoria).HasName("PK__Auditori__7FD13FA0BD233FEE");
@@ -82,18 +62,14 @@ public partial class SenaiNotesContext : DbContext
             entity.Property(e => e.DataCriacao)
                 .HasColumnType("datetime")
                 .HasColumnName("dataCriacao");
-            entity.Property(e => e.IdAnexo).HasColumnName("idAnexo");
             entity.Property(e => e.IdUsuario).HasColumnName("idUsuario");
+            entity.Property(e => e.ImagemUrl).HasColumnName("ImagemURL");
             entity.Property(e => e.Titulo)
                 .HasMaxLength(100)
                 .IsUnicode(false);
             entity.Property(e => e.UltimoRefresh)
                 .HasColumnType("datetime")
                 .HasColumnName("ultimoRefresh");
-
-            entity.HasOne(d => d.IdAnexoNavigation).WithMany(p => p.Nota)
-                .HasForeignKey(d => d.IdAnexo)
-                .HasConstraintName("FK__Notas__idAnexo__6383C8BA");
 
             entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.Nota)
                 .HasForeignKey(d => d.IdUsuario)

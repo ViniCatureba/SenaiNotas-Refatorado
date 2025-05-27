@@ -32,7 +32,7 @@ namespace SenaiNotas.Controllers
 
                 //EXTRA - Criar um nome personalizado para o arquivo
                 var nomeArquivo = anotacaoDto.ArquivoImagem.FileName;
-                
+
                 var caminhoCompleto = Path.Combine(pastaDeDestino, nomeArquivo);
 
                 //controlar memory leek
@@ -40,7 +40,7 @@ namespace SenaiNotas.Controllers
                 {
                     anotacaoDto.ArquivoImagem.CopyTo(stream);
                 }
-                
+
                 //3- guardar o arquivo no db
                 anotacaoDto.Imagem = nomeArquivo;
             }
@@ -60,20 +60,22 @@ namespace SenaiNotas.Controllers
         public async Task<IActionResult> ArquivarAnotacao(int IdNota)
         {
             var nota = _repository.ArquivarAnotacao(IdNota);
-            if (nota != null) { return NotFound(); }  
+            if (nota != null) { return NotFound(); }
             return Ok(nota);
         }
 
         [HttpGet("ListarAnotacoesPorUserId/{idNota}")]
 
 
-        public async Task<IActionResult> ListarAnotacoesPorUserId(int idNota) {
+        public async Task<IActionResult> ListarAnotacoesPorUserId(int idNota)
+        {
             var nota = _repository.ListarAnotacoesPorUserId(idNota);
             return Ok(nota);
         }
 
         [HttpDelete("DeletarNota/{idNota}")]
-        public async Task<IActionResult> DeletarNota(int idNota) {
+        public async Task<IActionResult> DeletarNota(int idNota)
+        {
             var nota = _repository.DeletaNota(idNota);
             if (nota == null) return NotFound();
 
@@ -83,13 +85,15 @@ namespace SenaiNotas.Controllers
 
         [HttpPut("AtualizarNota/{notaId}")]
 
-        public async Task<IActionResult> AtualizarNota(int notaId, AtualizarNotaDTO nota) {
-        { 
+        public async Task<IActionResult> AtualizarNota(int notaId, AtualizarNotaDTO nota)
+        {
+            {
                 var novaNota = _repository.AtualizarNota(notaId, nota);
                 if (novaNota == null) return NotFound();
 
                 return Ok(novaNota);
 
             }
+        }
     }
 }

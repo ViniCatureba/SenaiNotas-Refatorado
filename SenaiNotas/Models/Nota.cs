@@ -9,8 +9,6 @@ public partial class Nota
 
     public int? IdUsuario { get; set; }
 
-    public int? IdAnexo { get; set; }
-
     public string? Titulo { get; set; }
 
     public string? Conteudo { get; set; }
@@ -21,9 +19,7 @@ public partial class Nota
 
     public bool? Arquivado { get; set; }
 
-    public bool Status { get; set; }
-
-    public virtual Anexo? IdAnexoNavigation { get; set; }
+    public string? ImagemUrl { get; set; }
 
     public virtual Usuario? IdUsuarioNavigation { get; set; }
 
