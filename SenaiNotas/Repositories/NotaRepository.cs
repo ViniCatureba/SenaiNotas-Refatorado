@@ -28,7 +28,7 @@ namespace SenaiNotas.Repositories
 
             anotacao.Titulo = nota.Titulo;
             anotacao.Conteudo = nota.Conteudo;
-            //anotacao.Imagem = nota.Imagem; // banco vai adicionar essa coluna
+            anotacao.ImagemUrl = nota.Imagem;
             anotacao.UltimoRefresh = DateTime.Now;
            
             await _context.SaveChangesAsync();
@@ -63,7 +63,7 @@ namespace SenaiNotas.Repositories
                 Conteudo = anotacao.Conteudo,
                 UltimoRefresh = DateTime.Now,
                 DataCriacao = DateTime.Now,
-                //Imagem = anotacao.Imagem,     banco vai adicionar essa coluna
+                ImagemUrl = anotacao.Imagem,
                 Arquivado = false,
                 IdUsuario = anotacao.IdUsuario,
 
@@ -115,7 +115,7 @@ namespace SenaiNotas.Repositories
                 Titulo = n.Titulo,
                 Conteudo = n.Conteudo,
                 Arquivado = n.Arquivado,
-                //Imagem = n.Imagem, // banco vai adicionar essa coluna
+                Imagem = n.ImagemUrl, 
                 UltimoRefresh = n.UltimoRefresh,
                 DataCriacao = n.DataCriacao
             }).ToList();
