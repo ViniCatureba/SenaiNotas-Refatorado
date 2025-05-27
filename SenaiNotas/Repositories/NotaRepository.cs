@@ -1,5 +1,7 @@
-﻿using SenaiNotas.Interfaces;
-using SenaiNotas.Context;
+﻿using SenaiNotas.Context;
+using SenaiNotas.DTO;
+using SenaiNotas.Interfaces;
+using SenaiNotas.Models;
 
 namespace SenaiNotas.Repositories
 {
@@ -16,21 +18,27 @@ namespace SenaiNotas.Repositories
         }
 
 
-        public NotaRepository? ArquivarAnotacao(int id)
+        public async Task ArquivarAnotacao(int id)
         {
             //encontrar a anotacao
-            var anotacao = _context.Anotacaoes.Find(id);
+            var anotacao = _context.Notas.Find(id);
 
-            if (anotacao is null) return null;
+            if (anotacao is null) { throw new ArgumentException("Nota nao encontrado"); };
 
 
             // 2- Trocar o status de arquivada
-            anotacao.AnotacaoArquivada = !anotacao.AnotacaoArquivada;
+            anotacao.Arquivado = !anotacao.Arquivado;
 
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
+
         }
 
-            public CadastroAnotacaoDto? CadastrarAnotacao(CadastroAnotacaoDto anotacao)
+        public Task AtualizarNota(int IdNota, Nota nota)
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task CadastrarNota(CadastroAnotacaoDto nota)
         {
             //1 - Percorrer a lista de tags
             //1.1 - Essa tag ja existe??
@@ -38,16 +46,55 @@ namespace SenaiNotas.Repositories
             //1.2 - Essa tag não existe, criar uma nova tag, e pegar o id dela
             List<int> idTags = new List<int>();
 
-            foreach (var item in anotacao.Tags) {
-               
+            foreach (var item in anotacao.Tags)
+            {
+
                 var tag = _tagRepository.BuscarPorUsuarioeId(anotacao.IdUsuario, item);
 
-                if (tag is null) {
-                    //todo: cadastrar a tag
+                if (tag is null)
+                {
+
+                    tag = new Tag
+                    {
+                        Nome = item,
+                        Id = anotacao.IdUsuario
+                    };
+
+                    _context.Add(tag);
+                    _context.SaveChanges();
                 }
                 idTags.Add(tag.IdTag);
             }
+        }
+
+        public Task DeletaNota(int IdNota)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task EditarNota(int IdNota)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<ListarNotaDTO> ListarAnotacoes(int IdNota)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<bool> IAnotacaoRepository.ArquivarAnotacao(int IdNota)
+        {
+            //encontrar a anotacao
+            var anotacao = _context.Notas.Find(IdNota);
+
+            if (anotacao is null) { throw new ArgumentException("Nota nao encontrado"); }
+            ;
+
+
+            // 2- Trocar o status de arquivada
+            anotacao.Arquivado = !anotacao.Arquivado;
+
+            await _context.SaveChangesAsync();
+        }
     }
 }
-}
-*/

@@ -1,0 +1,8 @@
+C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\obj\Release\net8.0\SenaiNotas.csproj.AssemblyReference.cache
+C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\obj\Release\net8.0\SenaiNotas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\obj\Release\net8.0\SenaiNotas.AssemblyInfoInputs.cache
+C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\obj\Release\net8.0\SenaiNotas.AssemblyInfo.cs
+C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\obj\Release\net8.0\SenaiNotas.csproj.CoreCompileInputs.cache
+C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\obj\Release\net8.0\SenaiNotas.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\obj\Release\net8.0\SenaiNotas.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\obj\Release\net8.0\SenaiNotas.sourcelink.json

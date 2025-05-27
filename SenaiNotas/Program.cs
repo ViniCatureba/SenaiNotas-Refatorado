@@ -57,5 +57,8 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+var pastaDeDestino = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
+
+if (!Directory.Exists(pastaDeDestino)) { Directory.CreateDirectory(pastaDeDestino);}
 
 app.Run();

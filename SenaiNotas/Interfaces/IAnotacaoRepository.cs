@@ -13,7 +13,7 @@ namespace SenaiNotas.Interfaces
 
         Task EditarNota(int IdNota);
 
-        Task Deletar(int IdNota);
+        Task DeletaNota(int IdNota);
 
         Task AtualizarNota(int IdNota, Nota nota);
 
