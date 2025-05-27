@@ -1,3 +1,4 @@
+using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Options;
 using SenaiNotas.Context;
 using SenaiNotas.Interfaces;
@@ -60,5 +61,15 @@ app.MapControllers();
 var pastaDeDestino = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
 
 if (!Directory.Exists(pastaDeDestino)) { Directory.CreateDirectory(pastaDeDestino);}
+
+app.UseStaticFiles(
+    new StaticFileOptions
+    {
+        //quais pastas vou liberar para ver os arquivos
+        FileProvider = new PhysicalFileProvider(pastaDeDestino),
+        //como ele vai chegar ao upload
+        RequestPath = "/image" //quqlquer path
+    }
+    );
 
 app.Run();

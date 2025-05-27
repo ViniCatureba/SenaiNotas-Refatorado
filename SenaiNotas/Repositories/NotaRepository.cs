@@ -45,26 +45,26 @@ namespace SenaiNotas.Repositories
             // 1.2 Essa tag existe, pegar o id dela
             //1.2 - Essa tag não existe, criar uma nova tag, e pegar o id dela
             List<int> idTags = new List<int>();
+            throw new NotImplementedException();
+            //foreach (var item in anotacao.Tags)
+            //{
 
-            foreach (var item in anotacao.Tags)
-            {
+            //    var tag = _tagRepository.BuscarPorUsuarioeId(anotacao.IdUsuario, item);
 
-                var tag = _tagRepository.BuscarPorUsuarioeId(anotacao.IdUsuario, item);
+            //    if (tag is null)
+            //    {
 
-                if (tag is null)
-                {
+            //        tag = new Tag
+            //        {
+            //            Nome = item,
+            //            Id = anotacao.IdUsuario
+            //        };
 
-                    tag = new Tag
-                    {
-                        Nome = item,
-                        Id = anotacao.IdUsuario
-                    };
-
-                    _context.Add(tag);
-                    _context.SaveChanges();
-                }
-                idTags.Add(tag.IdTag);
-            }
+            //        _context.Add(tag);
+            //        _context.SaveChanges();
+            //    }
+            //    idTags.Add(tag.IdTag);
+            //}
         }
 
         public Task DeletaNota(int IdNota)
@@ -80,21 +80,6 @@ namespace SenaiNotas.Repositories
         public Task<ListarNotaDTO> ListarAnotacoes(int IdNota)
         {
             throw new NotImplementedException();
-        }
-
-        Task<bool> IAnotacaoRepository.ArquivarAnotacao(int IdNota)
-        {
-            //encontrar a anotacao
-            var anotacao = _context.Notas.Find(IdNota);
-
-            if (anotacao is null) { throw new ArgumentException("Nota nao encontrado"); }
-            ;
-
-
-            // 2- Trocar o status de arquivada
-            anotacao.Arquivado = !anotacao.Arquivado;
-
-            await _context.SaveChangesAsync();
         }
     }
 }

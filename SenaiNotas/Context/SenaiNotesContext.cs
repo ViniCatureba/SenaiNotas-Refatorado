@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using SenaiNotas.Models;
 
 namespace SenaiNotas.Context;
-
+//oi
 public partial class SenaiNotesContext : DbContext
 {
     public SenaiNotesContext()

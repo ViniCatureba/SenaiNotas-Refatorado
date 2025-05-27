@@ -11,7 +11,7 @@ namespace SenaiNotas.Controllers
 
 
         [HttpPost]
-        public async Task IActionResult CadastrarNota(CadastroAnotacaoDto anotacaoDto)
+        public async Task<IActionResult> CadastrarNota(CadastroAnotacaoDto anotacaoDto)
         {
             if (anotacaoDto.ArquivoAnotacao != null)
             {
@@ -23,8 +23,17 @@ namespace SenaiNotas.Controllers
 
                 //EXTRA - Criar um nome personalizado para o arquivo
                 var nomeArquivo = anotacaoDto.ArquivoAnotacao.FileName;
-                //3- guardar o arquivo no db
+                
+                var caminhoCompleto = Path.Combine(pastaDeDestino, nomeArquivo);
 
+                //controlar memory leek
+                using (var stream = new FileStream(caminhoCompleto, FileMode.Create)) //open - le arqvuido
+                {
+                    anotacaoDto.ArquivoAnotacao.CopyTo(stream);
+                }
+                
+                //3- guardar o arquivo no db
+                anotacaoDto.Imagem = nomeArquivo;
             }
             _repository.CadastrarNota(anotacaoDto);
             return Created();
