@@ -5,18 +5,18 @@ namespace SenaiNotas.Interfaces
     public interface ITagRepository
     {
         // Cria uma nova tag
-        void Create(Tag tag);
+        Task CriarTag(Tag? tag);
 
         // Retorna todas as tags
-        IEnumerable<Tag> GetAll();
+        Task<List<Tag>>? ListarTodas(int idUsuario);
 
         // Busca uma tag pelo ID
-        Tag? GetById(int id);
+        Task<Tag>? BuscarPorId(int idUsuario);
 
-        // Atualiza uma tag existente
-        void Update(Tag tag);
+        Tag BuscarPorUsuarioeId(int id, string nome);
 
-        // Remove uma tag pelo ID
-        void Delete(int id);
+        Task AtualizarTag(int id, Tag tag);
+
+        Task DeleatarTag(int id);
     }
 }

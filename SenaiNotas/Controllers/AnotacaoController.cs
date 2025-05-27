@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using SenaiNotas.DTO;
 using SenaiNotas.Interfaces;
+using SenaiNotas.Models;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace SenaiNotas.Controllers
 {
@@ -17,7 +19,7 @@ namespace SenaiNotas.Controllers
         }
 
 
-        [HttpPost]
+        [HttpPost("CadastrarNota")]
         public async Task<IActionResult> CadastrarNota(CadastroAnotacaoDto anotacaoDto)
         {
             if (anotacaoDto.ArquivoImagem != null)
@@ -45,5 +47,49 @@ namespace SenaiNotas.Controllers
             _repository.CadastrarNota(anotacaoDto);
             return Created();
         }
+
+
+        [HttpPost("ArquivarAnotacao/{IdNota}")]
+
+        [SwaggerOperation(
+            Summary = "Arquiva uma anotação",
+            Description = "Este endpoint arquiva uma anotação existente com base no ID fornecido.",
+            OperationId = "ArquivarAnotacao"
+        )]
+
+        public async Task<IActionResult> ArquivarAnotacao(int IdNota)
+        {
+            var nota = _repository.ArquivarAnotacao(IdNota);
+            if (nota != null) { return NotFound(); }  
+            return Ok(nota);
+        }
+
+        [HttpGet("ListarAnotacoesPorUserId/{idNota}")]
+
+
+        public async Task<IActionResult> ListarAnotacoesPorUserId(int idNota) {
+            var nota = _repository.ListarAnotacoesPorUserId(idNota);
+            return Ok(nota);
+        }
+
+        [HttpDelete("DeletarNota/{idNota}")]
+        public async Task<IActionResult> DeletarNota(int idNota) {
+            var nota = _repository.DeletaNota(idNota);
+            if (nota == null) return NotFound();
+
+            return Ok(nota);
+
+        }
+
+        [HttpPut("AtualizarNota/{notaId}")]
+
+        public async Task<IActionResult> AtualizarNota(int notaId, AtualizarNotaDTO nota) {
+        { 
+                var novaNota = _repository.AtualizarNota(notaId, nota);
+                if (novaNota == null) return NotFound();
+
+                return Ok(novaNota);
+
+            }
     }
 }

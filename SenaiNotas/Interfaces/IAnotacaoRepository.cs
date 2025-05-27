@@ -5,17 +5,15 @@ namespace SenaiNotas.Interfaces
 {
     public interface IAnotacaoRepository
     {
-        Task CadastrarNota(CadastroAnotacaoDto nota);
+        Task<Nota> CadastrarNota(CadastroAnotacaoDto anotacao);
 
-        Task<bool> ArquivarAnotacao(int IdNota);
+        Task<Nota>? ArquivarAnotacao(int IdNota);
 
-        Task<ListarNotaDTO> ListarAnotacoes(int IdNota);
-
-        Task EditarNota(int IdNota);
+        Task<List<ListarNotaDTO>> ListarAnotacoesPorUserId(int idUsuario);
 
         Task DeletaNota(int IdNota);
 
-        Task AtualizarNota(int IdNota, Nota nota);
+        Task AtualizarNota(int IdNota, AtualizarNotaDTO nota);
 
     }
 }
