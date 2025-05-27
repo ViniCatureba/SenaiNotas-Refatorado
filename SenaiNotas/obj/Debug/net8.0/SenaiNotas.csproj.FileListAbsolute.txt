@@ -172,7 +172,6 @@ C:\Users\vinic\source\repos\SenaiNotas\SenaiNotas\obj\Debug\net8.0\ref\SenaiNota
 C:\Users\vinic\source\repos\SenaiNotas\SenaiNotas\obj\Debug\net8.0\SenaiNotas.sourcelink.json
 C:\Users\vinic\source\repos\SenaiNotas\SenaiNotas\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\vinic\source\repos\SenaiNotas\SenaiNotas\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll
-C:\Users\vinic\source\repos\SenaiNotas\SenaiNotas\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\bin\Debug\net8.0\appsettings.json
 C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\bin\Debug\net8.0\SenaiNotas.staticwebassets.endpoints.json

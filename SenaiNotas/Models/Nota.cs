@@ -28,6 +28,4 @@ public partial class Nota
     public virtual Usuario? IdUsuarioNavigation { get; set; }
 
     public virtual ICollection<NotaTag> NotaTags { get; set; } = new List<NotaTag>();
-
-   
 }

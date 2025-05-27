@@ -81,5 +81,10 @@ namespace SenaiNotas.Repositories
         {
             throw new NotImplementedException();
         }
+
+        Task<bool> IAnotacaoRepository.ArquivarAnotacao(int IdNota)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

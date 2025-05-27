@@ -1,74 +1,90 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\",
+  "WorkspaceRootPath": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinicius.catureba\\source\\repos\\senainotas-refatorado\\senainotas\\repositories\\notarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\repositories\\notarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\controllers\\anotacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\controllers\\anotacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinicius.catureba\\source\\repos\\senainotas-refatorado\\senainotas\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\dto\\cadastrarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\dto\\cadastrarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinicius.catureba\\source\\repos\\senainotas-refatorado\\senainotas\\interfaces\\ianotacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\interfaces\\ianotacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinicius.catureba\\source\\repos\\senainotas-refatorado\\senainotas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinicius.catureba\\source\\repos\\senainotas-refatorado\\senainotas\\dto\\listarnotadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\dto\\listarnotadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinicius.catureba\\source\\repos\\senainotas-refatorado\\senainotas\\dto\\cadastroanotacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\dto\\cadastroanotacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinicius.catureba\\source\\repos\\senainotas-refatorado\\senainotas\\dto\\atualizarnotadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\dto\\atualizarnotadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinicius.catureba\\source\\repos\\senainotas-refatorado\\senainotas\\dto\\arquivardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\dto\\arquivardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinicius.catureba\\source\\repos\\senainotas-refatorado\\senainotas\\models\\nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\models\\nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinicius.catureba\\source\\repos\\senainotas-refatorado\\senainotas\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinicius.catureba\\source\\repos\\senainotas-refatorado\\senainotas\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinicius.catureba\\source\\repos\\senainotas-refatorado\\senainotas\\dto\\alterarsenhadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\dto\\alterarsenhadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinicius.catureba\\source\\repos\\senainotas-refatorado\\senainotas\\dto\\logindtocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\dto\\logindtocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinicius.catureba\\source\\repos\\senainotas-refatorado\\senainotas\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinicius.catureba\\source\\repos\\senainotas-refatorado\\senainotas\\viewmodel\\listarusuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\viewmodel\\listarusuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinicius.catureba\\source\\repos\\senainotas-refatorado\\senainotas\\context\\senainotescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\context\\senainotescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\context\\senainotescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinicius.catureba\\source\\repos\\senainotas-refatorado\\senainotas\\models\\anexo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\dto\\cadastroanotacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\dto\\cadastroanotacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\dto\\alterarsenhadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\dto\\alterarsenhadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\dto\\arquivardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\dto\\arquivardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\dto\\atualizarnotadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\dto\\atualizarnotadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\dto\\listarnotadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\dto\\listarnotadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\dto\\logindtocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\dto\\logindtocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\models\\nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\models\\nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\models\\notatag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\models\\notatag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\models\\anexo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\models\\anexo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\repositories\\notarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\repositories\\notarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\interfaces\\ianotacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\interfaces\\ianotacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\viewmodel\\listarusuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\viewmodel\\listarusuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -87,49 +103,49 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\Repositories\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "SenaiNotas\\Repositories\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\Repositories\\UsuarioRepository.cs",
-              "RelativeToolTip": "SenaiNotas\\Repositories\\UsuarioRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CadastrarUsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\DTO\\CadastrarUsuarioDTO.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\DTO\\CadastrarUsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\DTO\\CadastrarUsuarioDTO.cs",
+              "RelativeToolTip": "SenaiNotas\\DTO\\CadastrarUsuarioDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T22:48:52.767Z",
+              "WhenOpened": "2025-05-27T02:40:56.929Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NotaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\Repositories\\NotaRepository.cs",
-              "RelativeDocumentMoniker": "SenaiNotas\\Repositories\\NotaRepository.cs",
-              "ToolTip": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\Repositories\\NotaRepository.cs",
-              "RelativeToolTip": "SenaiNotas\\Repositories\\NotaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABIAAAAAAAAAA==",
+              "Title": "AnotacaoController.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Controllers\\AnotacaoController.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Controllers\\AnotacaoController.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Controllers\\AnotacaoController.cs",
+              "RelativeToolTip": "SenaiNotas\\Controllers\\AnotacaoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T00:05:50.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\Program.cs",
-              "RelativeDocumentMoniker": "SenaiNotas\\Program.cs",
-              "ToolTip": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\Program.cs",
-              "RelativeToolTip": "SenaiNotas\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T22:35:12.952Z",
+              "WhenOpened": "2025-05-27T02:40:12.706Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "CadastroAnotacaoDto.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\DTO\\CadastroAnotacaoDto.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\DTO\\CadastroAnotacaoDto.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\DTO\\CadastroAnotacaoDto.cs",
+              "RelativeToolTip": "SenaiNotas\\DTO\\CadastroAnotacaoDto.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wBIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T00:26:55.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ListarNotaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\DTO\\ListarNotaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\DTO\\ListarNotaDTO.cs",
               "RelativeDocumentMoniker": "SenaiNotas\\DTO\\ListarNotaDTO.cs",
-              "ToolTip": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\DTO\\ListarNotaDTO.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\DTO\\ListarNotaDTO.cs",
               "RelativeToolTip": "SenaiNotas\\DTO\\ListarNotaDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -138,37 +154,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IAnotacaoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\Interfaces\\IAnotacaoRepository.cs",
-              "RelativeDocumentMoniker": "SenaiNotas\\Interfaces\\IAnotacaoRepository.cs",
-              "ToolTip": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\Interfaces\\IAnotacaoRepository.cs",
-              "RelativeToolTip": "SenaiNotas\\Interfaces\\IAnotacaoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T22:49:03.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CadastroAnotacaoDto.cs",
-              "DocumentMoniker": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\DTO\\CadastroAnotacaoDto.cs",
-              "RelativeDocumentMoniker": "SenaiNotas\\DTO\\CadastroAnotacaoDto.cs",
-              "ToolTip": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\DTO\\CadastroAnotacaoDto.cs",
-              "RelativeToolTip": "SenaiNotas\\DTO\\CadastroAnotacaoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T00:26:55.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AtualizarNotaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\DTO\\AtualizarNotaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\DTO\\AtualizarNotaDTO.cs",
               "RelativeDocumentMoniker": "SenaiNotas\\DTO\\AtualizarNotaDTO.cs",
-              "ToolTip": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\DTO\\AtualizarNotaDTO.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\DTO\\AtualizarNotaDTO.cs",
               "RelativeToolTip": "SenaiNotas\\DTO\\AtualizarNotaDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -177,11 +167,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "ArquivarDTO.cs",
-              "DocumentMoniker": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\DTO\\ArquivarDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\DTO\\ArquivarDTO.cs",
               "RelativeDocumentMoniker": "SenaiNotas\\DTO\\ArquivarDTO.cs",
-              "ToolTip": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\DTO\\ArquivarDTO.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\DTO\\ArquivarDTO.cs",
               "RelativeToolTip": "SenaiNotas\\DTO\\ArquivarDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -191,10 +181,127 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Nota.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Models\\Nota.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Models\\Nota.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Models\\Nota.cs",
+              "RelativeToolTip": "SenaiNotas\\Models\\Nota.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T00:06:24.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginDTOcs.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\DTO\\LoginDTOcs.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\DTO\\LoginDTOcs.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\DTO\\LoginDTOcs.cs",
+              "RelativeToolTip": "SenaiNotas\\DTO\\LoginDTOcs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T00:18:26.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AlterarSenhaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\DTO\\AlterarSenhaDTO.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\DTO\\AlterarSenhaDTO.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\DTO\\AlterarSenhaDTO.cs",
+              "RelativeToolTip": "SenaiNotas\\DTO\\AlterarSenhaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T09:26:29.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SenaiNotesContext.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Context\\SenaiNotesContext.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Context\\SenaiNotesContext.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Context\\SenaiNotesContext.cs",
+              "RelativeToolTip": "SenaiNotas\\Context\\SenaiNotesContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T23:35:43.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Models\\Tag.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Models\\Tag.cs",
+              "RelativeToolTip": "SenaiNotas\\Models\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T02:41:41.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NotaTag.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Models\\NotaTag.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Models\\NotaTag.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Models\\NotaTag.cs",
+              "RelativeToolTip": "SenaiNotas\\Models\\NotaTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T02:41:42.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Anexo.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Models\\Anexo.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Models\\Anexo.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Models\\Anexo.cs",
+              "RelativeToolTip": "SenaiNotas\\Models\\Anexo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T00:06:36.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Models\\Usuario.cs",
+              "RelativeToolTip": "SenaiNotas\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T23:23:48.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NotaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Repositories\\NotaRepository.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Repositories\\NotaRepository.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Repositories\\NotaRepository.cs",
+              "RelativeToolTip": "SenaiNotas\\Repositories\\NotaRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T00:05:50.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\Controllers\\UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "SenaiNotas\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "SenaiNotas\\Controllers\\UsuarioController.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAowD8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -202,23 +309,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Nota.cs",
-              "DocumentMoniker": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\Models\\Nota.cs",
-              "RelativeDocumentMoniker": "SenaiNotas\\Models\\Nota.cs",
-              "ToolTip": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\Models\\Nota.cs",
-              "RelativeToolTip": "SenaiNotas\\Models\\Nota.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "IAnotacaoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Interfaces\\IAnotacaoRepository.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Interfaces\\IAnotacaoRepository.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Interfaces\\IAnotacaoRepository.cs",
+              "RelativeToolTip": "SenaiNotas\\Interfaces\\IAnotacaoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T00:06:24.708Z"
+              "WhenOpened": "2025-05-23T22:49:03.645Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "IUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\Interfaces\\IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Interfaces\\IUsuarioRepository.cs",
               "RelativeDocumentMoniker": "SenaiNotas\\Interfaces\\IUsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\Interfaces\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Interfaces\\IUsuarioRepository.cs",
               "RelativeToolTip": "SenaiNotas\\Interfaces\\IUsuarioRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -226,71 +333,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LoginDTOcs.cs",
-              "DocumentMoniker": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\DTO\\LoginDTOcs.cs",
-              "RelativeDocumentMoniker": "SenaiNotas\\DTO\\LoginDTOcs.cs",
-              "ToolTip": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\DTO\\LoginDTOcs.cs",
-              "RelativeToolTip": "SenaiNotas\\DTO\\LoginDTOcs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Program.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Program.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Program.cs",
+              "RelativeToolTip": "SenaiNotas\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T00:18:26.565Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AlterarSenhaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\DTO\\AlterarSenhaDTO.cs",
-              "RelativeDocumentMoniker": "SenaiNotas\\DTO\\AlterarSenhaDTO.cs",
-              "ToolTip": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\DTO\\AlterarSenhaDTO.cs",
-              "RelativeToolTip": "SenaiNotas\\DTO\\AlterarSenhaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T09:26:29.005Z"
+              "WhenOpened": "2025-05-26T22:35:12.952Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "SenaiNotesContext.cs",
-              "DocumentMoniker": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\Context\\SenaiNotesContext.cs",
-              "RelativeDocumentMoniker": "SenaiNotas\\Context\\SenaiNotesContext.cs",
-              "ToolTip": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\Context\\SenaiNotesContext.cs",
-              "RelativeToolTip": "SenaiNotas\\Context\\SenaiNotesContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "SenaiNotas\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T23:35:43.025Z"
+              "WhenOpened": "2025-05-26T22:48:52.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Anexo.cs",
-              "DocumentMoniker": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\Models\\Anexo.cs",
-              "RelativeDocumentMoniker": "SenaiNotas\\Models\\Anexo.cs",
-              "ToolTip": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\Models\\Anexo.cs",
-              "RelativeToolTip": "SenaiNotas\\Models\\Anexo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T00:06:36.395Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "SenaiNotas\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\Models\\Usuario.cs",
-              "RelativeToolTip": "SenaiNotas\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T23:23:48.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "ListarUsuarioViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\ViewModel\\ListarUsuarioViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\ViewModel\\ListarUsuarioViewModel.cs",
               "RelativeDocumentMoniker": "SenaiNotas\\ViewModel\\ListarUsuarioViewModel.cs",
-              "ToolTip": "C:\\Users\\vinicius.catureba\\source\\repos\\SenaiNotas-Refatorado\\SenaiNotas\\ViewModel\\ListarUsuarioViewModel.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\ViewModel\\ListarUsuarioViewModel.cs",
               "RelativeToolTip": "SenaiNotas\\ViewModel\\ListarUsuarioViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

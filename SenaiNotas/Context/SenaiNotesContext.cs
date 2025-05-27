@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using SenaiNotas.Models;
 
 namespace SenaiNotas.Context;
-//oi
+
 public partial class SenaiNotesContext : DbContext
 {
     public SenaiNotesContext()
@@ -126,9 +126,14 @@ public partial class SenaiNotesContext : DbContext
             entity.ToTable("Tag", tb => tb.HasTrigger("trg_audit_Tag"));
 
             entity.Property(e => e.IdTag).HasColumnName("idTag");
+            entity.Property(e => e.IdUsuario).HasColumnName("idUsuario");
             entity.Property(e => e.Nome)
                 .HasMaxLength(100)
                 .IsUnicode(false);
+
+            entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.Tags)
+                .HasForeignKey(d => d.IdUsuario)
+                .HasConstraintName("FK_Tag_Usuarios");
         });
 
         modelBuilder.Entity<Usuario>(entity =>
