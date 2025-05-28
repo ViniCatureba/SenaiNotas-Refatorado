@@ -1,0 +1,82 @@
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.log
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Mono Auto Generated Files
+mono_crash.*
+
+## Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+## Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+## Visual Studio temporary files
+.vs/
+.vscode/
+*.dbmdl
+
+## Rider files
+.idea/
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## DotCover
+*.dotCover
+
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+*.psmdcp
+*.symbols.nupkg
+
+## Azure
+*.azurePubxml
+*.Publish.xml
+*.pubxml
+*.publishproj
+
+## Others
+*.tmp
+*.bak
+*.swp
+*.orig
+
+# Ignore test result files
+TestResult.xml
+TestResults/
+
+# Ignore coverage results
+coverage/
+*.coverage
+*.coveragexml
+*.lcov
+
+# Ignore Resharper files
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Ignore Secrets
+secrets.json
+appsettings.Development.json
