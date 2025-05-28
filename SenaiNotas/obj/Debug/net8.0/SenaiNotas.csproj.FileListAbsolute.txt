@@ -341,3 +341,14 @@ C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\obj\Deb
 C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\SenaiNotas.pdb
 C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\SenaiNotas.genruntimeconfig.cache
 C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\ref\SenaiNotas.dll
+C:\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\SenaiNotas.csproj.AssemblyReference.cache
+C:\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\SenaiNotas.GeneratedMSBuildEditorConfig.editorconfig
+C:\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\SenaiNotas.AssemblyInfoInputs.cache
+C:\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\SenaiNotas.AssemblyInfo.cs
+C:\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\SenaiNotas.csproj.CoreCompileInputs.cache
+C:\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\SenaiNotas.MvcApplicationPartsAssemblyInfo.cs
+C:\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\SenaiNotas.MvcApplicationPartsAssemblyInfo.cache
+C:\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\SenaiNotas.sourcelink.json
+C:\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\SenaiNotas.dll
+C:\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\refint\SenaiNotas.dll
+C:\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\SenaiNotas.pdb

@@ -19,14 +19,20 @@ namespace SenaiNotas.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<Tag>? BuscarPorId(int idUsuario)
+        public async Task<Tag>? BuscarPorId(int idUsuario)
         {
-            throw new NotImplementedException();
+            var tag = await _context.Tags.Where(c =>  c.IdUsuario == idUsuario).FirstOrDefaultAsync();
+            return tag;
         }
 
-        public Tag BuscarPorUsuarioeId(int id, string nome)
+        public async Task<Tag> BuscarPorUsuarioeId(int id, string nome)
         {
-            throw new NotImplementedException();
+            var tag = await _context.Tags.Where(c => c.IdUsuario == id && c.Nome == nome).FirstOrDefaultAsync();
+            if (tag == null)
+            {
+                throw new ArgumentException("Cliente nao encontrado");
+            }
+            return tag;
         }
 
         public Task CriarTag(Tag? tag)
@@ -34,14 +40,20 @@ namespace SenaiNotas.Repositories
             throw new NotImplementedException();
         }
 
-        public Task DeleatarTag(int id)
+        public async Task DeleatarTag(int id)
         {
-            throw new NotImplementedException();
+            var tag = await _context.Tags.FirstOrDefaultAsync(c => c.IdTag == id);
+            if (tag == null)
+            {
+                throw new ArgumentException("Cliente nao encontrado");
+            }
+            _context.Tags.Remove(tag);
+            await _context.SaveChangesAsync();
         }
 
-        public Task<List<Tag>>? ListarTodas(int idUsuario)
+        public async Task<List<Tag>>? ListarTodas(int idUsuario)
         {
-            throw new NotImplementedException();
+            return await _context.Tags.Where(c => c.IdUsuario == idUsuario).ToListAsync();
         }
     }
 }

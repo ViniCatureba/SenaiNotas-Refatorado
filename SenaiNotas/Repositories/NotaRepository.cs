@@ -40,7 +40,7 @@ namespace SenaiNotas.Repositories
 
             foreach (var item in anotacao.Tags)
             {
-                var tag = _tagRepository.BuscarPorUsuarioeId(anotacao.IdUsuario, item);
+                var tag = await _tagRepository.BuscarPorUsuarioeId(anotacao.IdUsuario, item);
 
                 if (tag is null)
                 {

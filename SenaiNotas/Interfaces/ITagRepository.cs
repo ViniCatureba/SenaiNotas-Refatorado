@@ -13,7 +13,7 @@ namespace SenaiNotas.Interfaces
         // Busca uma tag pelo ID
         Task<Tag>? BuscarPorId(int idUsuario);
 
-        Tag BuscarPorUsuarioeId(int id, string nome);
+        Task<Tag> BuscarPorUsuarioeId(int id, string nome);
 
         Task AtualizarTag(int id, Tag tag);
 
