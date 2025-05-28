@@ -17,11 +17,13 @@ namespace SenaiNotas.Controllers
 
         //instancia o passwordService
         private PasswordService passwordService = new PasswordService();
+        private readonly TokenService _tokenService;
 
         //Controller
-        public UsuarioController(IUsuarioRepository usuarioRepository)
+        public UsuarioController(IUsuarioRepository usuarioRepository, TokenService tokenService)
         {
             _usuarioRepository = usuarioRepository;
+            _tokenService = tokenService;
         }
 
 
@@ -69,11 +71,34 @@ namespace SenaiNotas.Controllers
         {
             return Ok(await _usuarioRepository.ListarUsuario(id));
         }
-        //login deve retornar token e user
 
-        //return Ok(new{
-            //token ,
-            //usuario
+
+        [HttpPost("login")]
+        public async Task<IActionResult> login(LoginDto dto)
+        {
+            try
+            {
+                var usuario = await _usuarioRepository.Login(dto);
+                var token = _tokenService.GenerateToken(usuario.Email);
+
+                var response = new LoginTokenDTO
+                {
+                    Nome = usuario.Nome,
+                    Email = usuario.Email,
+                    Token = token
+                };
+
+                return Ok(response);
+            }
+            catch (ArgumentException ex)
+            {
+                return Unauthorized(new { mensagem = ex.Message });
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, new { mensagem = "Erro interno no servidor." });
+            }
+        }
         }
     }
 

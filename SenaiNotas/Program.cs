@@ -3,6 +3,7 @@ using Microsoft.Extensions.Options;
 using SenaiNotas.Context;
 using SenaiNotas.Interfaces;
 using SenaiNotas.Repositories;
+using SenaiNotas.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,6 +33,8 @@ builder.Services.AddTransient<SenaiNotesContext, SenaiNotesContext>();
 builder.Services.AddTransient<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddTransient<IAnotacaoRepository, NotaRepository>();
 builder.Services.AddTransient<ITagRepository, TagRepository>();
+builder.Services.AddScoped<TokenService>();
+
 
 
 

@@ -93,16 +93,29 @@ namespace SenaiNotas.Repositories
 
         }
 
-        public async Task<bool> Login(LoginDto loginDTO)
+        public async Task<ListarUsuarioViewModel> Login(LoginDto loginDTO)
         {
-            var emailEncontrado = _context.Usuarios.FirstOrDefaultAsync(c => c.Email == loginDTO.Email);
+            var emailEncontrado = await _context.Usuarios.FirstOrDefaultAsync(c => c.Email == loginDTO.Email);
+
             if (emailEncontrado == null) { throw new ArgumentException("E-mail ou senha invalidos"); }
 
             var passwordService = new PasswordService();
-            var verificarHash = passwordService.VerificarSenha(await emailEncontrado, loginDTO.Senha);
-            if (verificarHash == true) return true;
-            return false;
-            //TODO: Implementar JWT
+
+            var verificarHash = passwordService.VerificarSenha(emailEncontrado, loginDTO.Senha);
+
+            if (verificarHash == true)
+            {
+              
+                var usuarioViewModel = new ListarUsuarioViewModel
+                {
+                    Nome = emailEncontrado.Nome,
+                    Email = emailEncontrado.Email,
+                };
+                return usuarioViewModel;
+            }
+
+            throw new ArgumentException("E-mail ou senha inválidos.");
+            
 
 
         }

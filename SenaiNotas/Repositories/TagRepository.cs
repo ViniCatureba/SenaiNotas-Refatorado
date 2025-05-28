@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SenaiNotas.Context;
+using SenaiNotas.DTO;
 using SenaiNotas.Interfaces;
 using SenaiNotas.Models;
 
@@ -14,9 +15,18 @@ namespace SenaiNotas.Repositories
             _context = context;
         }
 
-        public Task AtualizarTag(int id, Tag tag)
+        public async Task AtualizarTag(int id, CadastrarTagDTO tag)
         {
-            throw new NotImplementedException();
+            var tagEncontrada = await _context.Tags.FindAsync(id);
+            if (tagEncontrada == null)
+            {
+                throw new ArgumentException("Tag não encontrada.");
+            }
+            tagEncontrada.Nome = tag.Nome;
+
+            await _context.SaveChangesAsync();
+
+
         }
 
         public async Task<Tag>? BuscarPorId(int idUsuario)
@@ -27,25 +37,37 @@ namespace SenaiNotas.Repositories
 
         public async Task<Tag> BuscarPorUsuarioeId(int id, string nome)
         {
-            var tag = await _context.Tags.Where(c => c.IdUsuario == id && c.Nome == nome).FirstOrDefaultAsync();
+            var tag = await _context.Tags.FirstOrDefaultAsync(c => c.IdUsuario == id && c.Nome == nome);
             if (tag == null)
             {
-                throw new ArgumentException("Cliente nao encontrado");
+                throw new ArgumentException("Tag nao encontrado");
             }
             return tag;
         }
 
-        public Task CriarTag(Tag? tag)
+        public async Task CriarTag(CadastrarTagDTO? tag)
         {
-            throw new NotImplementedException();
+            var verificar = _context.Tags.AnyAsync(c => c.Nome == tag.Nome && c.IdUsuario == tag.IdUsuario);
+            if (verificar != null)
+            {
+                throw new ArgumentException("Tag já existente");
+            }
+                var novaTag = new Tag
+            {
+                Nome = tag.Nome,
+                IdUsuario = tag.IdUsuario
+            };
+
+            await _context.Tags.AddAsync(novaTag);
+            await _context.SaveChangesAsync();
         }
 
         public async Task DeleatarTag(int id)
         {
-            var tag = await _context.Tags.FirstOrDefaultAsync(c => c.IdTag == id);
+              var tag = await _context.Tags.FirstOrDefaultAsync(c => c.IdTag == id);
             if (tag == null)
             {
-                throw new ArgumentException("Cliente nao encontrado");
+                throw new ArgumentException("Tag nao encontrado");
             }
             _context.Tags.Remove(tag);
             await _context.SaveChangesAsync();

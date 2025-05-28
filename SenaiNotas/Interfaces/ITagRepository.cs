@@ -1,11 +1,12 @@
-﻿using SenaiNotas.Models;
+﻿using SenaiNotas.DTO;
+using SenaiNotas.Models;
 
 namespace SenaiNotas.Interfaces
 {
     public interface ITagRepository
     {
         // Cria uma nova tag
-        Task CriarTag(Tag? tag);
+        Task CriarTag(CadastrarTagDTO? tag);
 
         // Retorna todas as tags
         Task<List<Tag>>? ListarTodas(int idUsuario);
@@ -15,7 +16,7 @@ namespace SenaiNotas.Interfaces
 
         Task<Tag> BuscarPorUsuarioeId(int id, string nome);
 
-        Task AtualizarTag(int id, Tag tag);
+        Task AtualizarTag(int id, CadastrarTagDTO tag);
 
         Task DeleatarTag(int id);
     }

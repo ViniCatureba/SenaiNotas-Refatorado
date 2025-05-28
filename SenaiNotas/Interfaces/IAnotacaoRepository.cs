@@ -7,7 +7,7 @@ namespace SenaiNotas.Interfaces
     {
         Task<Nota> CadastrarNota(CadastroAnotacaoDto anotacao);
 
-        Task<Nota>? ArquivarAnotacao(int IdNota);
+        Task<Nota> ArquivarAnotacao(int IdNota);
 
         Task<List<ListarNotaDTO>> ListarAnotacoesPorUserId(int idUsuario);
 

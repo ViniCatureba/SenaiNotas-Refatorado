@@ -34,7 +34,7 @@ namespace SenaiNotas.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task<Nota> CadastrarNota(CadastroAnotacaoDto anotacao)
+        public async Task<NotaCriadaDTO> CadastrarNota(CadastroAnotacaoDto anotacao)
         {
             List<int> idTags = new List<int>();
 
@@ -51,8 +51,8 @@ namespace SenaiNotas.Repositories
                     };
 
                     await _context.AddAsync(tag);
-                    await _context.SaveChangesAsync();
                 }
+                await _context.SaveChangesAsync();
                 idTags.Add(tag.IdTag);
 
             }
@@ -82,7 +82,14 @@ namespace SenaiNotas.Repositories
                 await _context.NotaTags.AddAsync(notaTag);
                 await _context.SaveChangesAsync();
             }
-            return novaAnotacao;  // TODO: Ajustar para retornar DTO.
+            return new NotaCriadaDTO
+            {
+                IdNota = novaAnotacao.IdNota,
+                Titulo = novaAnotacao.Titulo,
+                Conteudo = novaAnotacao.Conteudo,
+                Imagem = novaAnotacao.ImagemUrl,
+                DataCriacao = novaAnotacao.DataCriacao
+            };
         }
 
 
@@ -94,7 +101,7 @@ namespace SenaiNotas.Repositories
 
         public async Task DeletaNota(int IdNota)
         {
-            var anotacao = _context.Notas.Find(IdNota);
+            var anotacao = await _context.Notas.FindAsync(IdNota);
             if (anotacao is null)
             {
                 throw new ArgumentException("Nota nao encontrada");

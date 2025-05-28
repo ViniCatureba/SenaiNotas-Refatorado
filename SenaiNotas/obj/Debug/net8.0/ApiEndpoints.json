@@ -1,5 +1,241 @@
 [
   {
+    "ContainingType": "SenaiNotas.Controllers.AnotacaoController",
+    "Method": "ArquivarAnotacao",
+    "RelativePath": "api/Anotacao/ArquivarAnotacao/{IdNota}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdNota",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SenaiNotas.Controllers.AnotacaoController",
+    "Method": "AtualizarNota",
+    "RelativePath": "api/Anotacao/AtualizarNota/{notaId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "nota",
+        "Type": "SenaiNotas.DTO.AtualizarNotaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SenaiNotas.Controllers.AnotacaoController",
+    "Method": "CadastrarNota",
+    "RelativePath": "api/Anotacao/CadastrarNota",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Titulo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Conteudo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UltimoRefresh",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "DataCriacao",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Imagem",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AnotacaoArquivada",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdUsuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ArquivoImagem",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Tags",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SenaiNotas.Controllers.AnotacaoController",
+    "Method": "DeletarNota",
+    "RelativePath": "api/Anotacao/DeletarNota/{idNota}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idNota",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SenaiNotas.Controllers.AnotacaoController",
+    "Method": "ListarAnotacoesPorUserId",
+    "RelativePath": "api/Anotacao/ListarAnotacoesPorUserId/{idNota}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idNota",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SenaiNotas.Controllers.TagController",
+    "Method": "AtualizarTag",
+    "RelativePath": "api/Tag/atualizarTag/{idTag}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idTag",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tagDTO",
+        "Type": "SenaiNotas.DTO.CadastrarTagDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SenaiNotas.Controllers.TagController",
+    "Method": "BuscarPorId",
+    "RelativePath": "api/Tag/BuscarPorId/{IdTag}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idTag",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SenaiNotas.Controllers.TagController",
+    "Method": "CriarTag",
+    "RelativePath": "api/Tag/CriarTag",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tag",
+        "Type": "SenaiNotas.DTO.CadastrarTagDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SenaiNotas.Controllers.TagController",
+    "Method": "DeletarTag",
+    "RelativePath": "api/Tag/DeletarTag/{idTag}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idTag",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SenaiNotas.Controllers.TagController",
+    "Method": "ListarTodos",
+    "RelativePath": "api/Tag/ListarTodo/{idUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SenaiNotas.Controllers.TagController",
+    "Method": "BuscarPorIdENome",
+    "RelativePath": "api/Tag/usuario/{idUsuario}/nome/{nome}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idTag",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "idUsuario",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SenaiNotas.Controllers.UsuarioController",
     "Method": "AlterarSenhaUsuario",
     "RelativePath": "api/Usuario/AlterarSenhaUsuario",
@@ -42,6 +278,22 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SenaiNotas.Controllers.UsuarioController",
+    "Method": "login",
+    "RelativePath": "api/Usuario/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SenaiNotas.DTO.LoginDto",
         "IsRequired": true
       }
     ],

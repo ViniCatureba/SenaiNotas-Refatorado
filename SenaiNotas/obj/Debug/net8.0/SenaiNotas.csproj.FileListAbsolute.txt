@@ -352,3 +352,5 @@ C:\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\SenaiNotas.sourcelink.json
 C:\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\SenaiNotas.dll
 C:\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\refint\SenaiNotas.dll
 C:\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\SenaiNotas.pdb
+C:\Users\vinic\source\repos\SenaiNotas\SenaiNotas\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\vinic\source\repos\SenaiNotas\SenaiNotas\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
