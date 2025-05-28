@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\repositories\\notarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\repositories\\notarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\controllers\\anotacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\controllers\\anotacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\repositories\\notarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\repositories\\notarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\repositories\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\repositories\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\dto\\notacriadadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\dto\\notacriadadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\interfaces\\ianotacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\interfaces\\ianotacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\dto\\notacriadadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\dto\\notacriadadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|c:\\users\\vinic\\source\\repos\\senainotas\\senainotas\\dto\\cadastroanotacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476A0F70-C0E4-4506-837B-2F08F5151A35}|SenaiNotas\\SenaiNotas.csproj|solutionrelative:senainotas\\dto\\cadastroanotacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,12 +47,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "TagRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Repositories\\TagRepository.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Repositories\\TagRepository.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Repositories\\TagRepository.cs",
+              "RelativeToolTip": "SenaiNotas\\Repositories\\TagRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T11:53:54.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CadastroAnotacaoDto.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\DTO\\CadastroAnotacaoDto.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\DTO\\CadastroAnotacaoDto.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\DTO\\CadastroAnotacaoDto.cs",
+              "RelativeToolTip": "SenaiNotas\\DTO\\CadastroAnotacaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T11:44:35.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Repositories\\NotaRepository.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Repositories\\NotaRepository.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Repositories\\NotaRepository.cs",
+              "RelativeToolTip": "SenaiNotas\\Repositories\\NotaRepository.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAUwHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T04:24:32.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "NotaCriadaDTO.cs",
               "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\DTO\\NotaCriadaDTO.cs",
               "RelativeDocumentMoniker": "SenaiNotas\\DTO\\NotaCriadaDTO.cs",
               "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\DTO\\NotaCriadaDTO.cs",
               "RelativeToolTip": "SenaiNotas\\DTO\\NotaCriadaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T04:30:24.174Z",
               "EditorCaption": ""
@@ -48,12 +99,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "TagController.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Controllers\\TagController.cs",
+              "RelativeDocumentMoniker": "SenaiNotas\\Controllers\\TagController.cs",
+              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Controllers\\TagController.cs",
+              "RelativeToolTip": "SenaiNotas\\Controllers\\TagController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCkAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T11:36:32.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "IAnotacaoRepository.cs",
               "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Interfaces\\IAnotacaoRepository.cs",
               "RelativeDocumentMoniker": "SenaiNotas\\Interfaces\\IAnotacaoRepository.cs",
               "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Interfaces\\IAnotacaoRepository.cs",
               "RelativeToolTip": "SenaiNotas\\Interfaces\\IAnotacaoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T04:25:54.168Z",
               "EditorCaption": ""
@@ -61,25 +125,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NotaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Repositories\\NotaRepository.cs",
-              "RelativeDocumentMoniker": "SenaiNotas\\Repositories\\NotaRepository.cs",
-              "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Repositories\\NotaRepository.cs",
-              "RelativeToolTip": "SenaiNotas\\Repositories\\NotaRepository.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAIwDAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T04:24:32.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "AnotacaoController.cs",
               "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Controllers\\AnotacaoController.cs",
               "RelativeDocumentMoniker": "SenaiNotas\\Controllers\\AnotacaoController.cs",
               "ToolTip": "C:\\Users\\vinic\\source\\repos\\SenaiNotas\\SenaiNotas\\Controllers\\AnotacaoController.cs",
               "RelativeToolTip": "SenaiNotas\\Controllers\\AnotacaoController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowD8AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAwwD8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T04:24:05.351Z",
               "EditorCaption": ""

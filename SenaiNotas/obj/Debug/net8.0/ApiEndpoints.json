@@ -111,13 +111,13 @@
   {
     "ContainingType": "SenaiNotas.Controllers.AnotacaoController",
     "Method": "ListarAnotacoesPorUserId",
-    "RelativePath": "api/Anotacao/ListarAnotacoesPorUserId/{idNota}",
+    "RelativePath": "api/Anotacao/ListarAnotacoesPorUserId/{idUsuario}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "idNota",
+        "Name": "idUsuario",
         "Type": "System.Int32",
         "IsRequired": true
       }

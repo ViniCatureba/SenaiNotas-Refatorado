@@ -99,18 +99,28 @@ namespace SenaiNotas.Repositories
 
 
 
-        public async Task DeletaNota(int IdNota)
+        public async Task DeletaNota(int idNota)
         {
-            var anotacao = await _context.Notas.FindAsync(IdNota);
-            if (anotacao is null)
+            // Verifica se a nota existe
+            var nota = await _context.Notas.FirstOrDefaultAsync(n => n.IdNota == idNota);
+            if (nota == null)
             {
-                throw new ArgumentException("Nota nao encontrada");
+                throw new Exception("Nota não encontrada.");
             }
-            _context.Notas.Remove(anotacao);
+
+            // Busca e remove os relacionamentos da tabela NotaTag
+            var notaTags = _context.NotaTags.Where(nt => nt.IdNota == idNota);
+            _context.NotaTags.RemoveRange(notaTags);
+
+            // Remove a nota
+            _context.Notas.Remove(nota);
+
+            // Salva todas as alterações
             await _context.SaveChangesAsync();
         }
 
-            public async Task<List<ListarNotaDTO>> ListarAnotacoesPorUserId(int IdUsuario)
+
+        public async Task<List<ListarNotaDTO>> ListarAnotacoesPorUserId(int IdUsuario)
         {
             var notaPorId = await _context.Notas.Where(c => c.IdUsuario == IdUsuario).ToListAsync(); //revisar para buscar todas de um user ID
 

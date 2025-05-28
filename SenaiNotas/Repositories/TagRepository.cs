@@ -37,12 +37,7 @@ namespace SenaiNotas.Repositories
 
         public async Task<Tag> BuscarPorUsuarioeId(int id, string nome)
         {
-            var tag = await _context.Tags.FirstOrDefaultAsync(c => c.IdUsuario == id && c.Nome == nome);
-            if (tag == null)
-            {
-                throw new ArgumentException("Tag nao encontrado");
-            }
-            return tag;
+            return await _context.Tags.FirstOrDefaultAsync(c => c.IdUsuario == id && c.Nome == nome);
         }
 
         public async Task CriarTag(CadastrarTagDTO? tag)
