@@ -30,7 +30,8 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddTransient<SenaiNotesContext, SenaiNotesContext>();
 builder.Services.AddTransient<IUsuarioRepository, UsuarioRepository>();
-
+builder.Services.AddTransient<IAnotacaoRepository, NotaRepository>();
+builder.Services.AddTransient<ITagRepository, TagRepository>();
 
 
 

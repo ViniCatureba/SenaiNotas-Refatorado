@@ -4891,23 +4891,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vinicius.catureba\\.nuget\\packages\\": {},
+    "C:\\Users\\fic\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vinicius.catureba\\Source\\Repos\\SenaiNotas-Refatorado\\SenaiNotas\\SenaiNotas.csproj",
+      "projectUniqueName": "C:\\SenaiNotas-Refatorado\\SenaiNotas\\SenaiNotas.csproj",
       "projectName": "SenaiNotas",
-      "projectPath": "C:\\Users\\vinicius.catureba\\Source\\Repos\\SenaiNotas-Refatorado\\SenaiNotas\\SenaiNotas.csproj",
-      "packagesPath": "C:\\Users\\vinicius.catureba\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vinicius.catureba\\Source\\Repos\\SenaiNotas-Refatorado\\SenaiNotas\\obj\\",
+      "projectPath": "C:\\SenaiNotas-Refatorado\\SenaiNotas\\SenaiNotas.csproj",
+      "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
+      "outputPath": "C:\\SenaiNotas-Refatorado\\SenaiNotas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\vinicius.catureba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4934,7 +4934,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -4996,7 +4996,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
