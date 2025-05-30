@@ -13,8 +13,9 @@ namespace SenaiNotas.Services
             {
                 new Claim(ClaimTypes.Email, email)
             };
+            string tokencode = Environment.GetEnvironmentVariable("tokencode");
 
-            var chave = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("minha-cahve-colcoar=no-vault-precisavaser-maior-ajuda-ai-plmds")); //colcoar no key vault
+            var chave = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(tokencode)); //colcoar no key vault
 
             var creds = new SigningCredentials(chave, SecurityAlgorithms.HmacSha256);
 

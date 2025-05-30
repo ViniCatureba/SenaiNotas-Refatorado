@@ -21,7 +21,7 @@
     },
     "resourceName": {
       "type": "string",
-      "defaultValue": "SenaiNotasRefatorado0",
+      "defaultValue": "APISenaiNotas-01",
       "metadata": {
         "description": "Name of the main resource to be created by this template."
       }

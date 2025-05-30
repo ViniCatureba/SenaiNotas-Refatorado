@@ -354,3 +354,8 @@ C:\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\refint\SenaiNotas.dll
 C:\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\SenaiNotas.pdb
 C:\Users\vinic\source\repos\SenaiNotas\SenaiNotas\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\vinic\source\repos\SenaiNotas\SenaiNotas\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\bin\Debug\net8.0\Azure.Storage.Blobs.dll
+C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\bin\Debug\net8.0\Azure.Storage.Common.dll
+C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\bin\Debug\net8.0\System.IO.Hashing.dll
+C:\Users\vinicius.catureba\Source\Repos\SenaiNotas-Refatorado\SenaiNotas\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
